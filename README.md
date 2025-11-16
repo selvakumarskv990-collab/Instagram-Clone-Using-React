@@ -1,18 +1,57 @@
-# React + Vite
+# Instagram Clone Using React
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Project Overview
+A lightweight Instagram-like single-page application built using **pure React** (no external UI frameworks).  
+The app includes a minimal social feed with four core screens:
+- **Posts**
+- **Suggestions**
+- **Story**
+- **Profile**
 
-Currently, two official plugins are available:
+It uses an **inbuilt JSON database (`db.json`)** to simulate backend data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ What This Repo Shows
+- Clean structure using **functional components + hooks** (`useState`, `useEffect`, `useContext`)
+- **React Router** for page navigation
+- API calls using **fetch** and **axios**
+- Mock REST API powered by **json-server**
+- Basic UI interactions: view posts, like, comment (local state), show stories & profile
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+> _This is a frontend-only learning project. To make it production-ready, you should replace the JSON DB with a real backend + authentication._
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
+| Area | Technology |
+|------|------------|
+| UI | React (Hooks) |
+| Routing | react-router-dom |
+| API Calls | fetch & axios |
+| Mock API | json-server (`db.json`) |
+| Styling | Bootstrap CSS |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📋 Prerequisites
+- Node.js (v14+ recommended)
+- npm or yarn
+
+---
+
+
+# Install dependencies
+npm install
+
+🔁 Start the Inbuilt JSON DB <br>
+Install json-server (only once):<br>
+npm install -g json-server<br>
+
+# Run the mock API:
+json-server --watch db.json --port 3000 <br>
+The React app expects the JSON API to run at port 3000.<br>
+
+# 📦 Deployment
+npm run dev
