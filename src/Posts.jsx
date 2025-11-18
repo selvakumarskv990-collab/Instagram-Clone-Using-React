@@ -47,7 +47,7 @@ function Posts() {
                 Loading Posts...
                 </div>)
                 }
- 
+          
 
     </div>
   )

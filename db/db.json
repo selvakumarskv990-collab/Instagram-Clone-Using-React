@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "id": 1,
+      "id": "1",
       "user": {
         "id": 101,
         "username": "john_doe",
@@ -23,7 +23,7 @@
       "timestamp": "2025-02-11T14:30:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "user": {
         "id": 102,
         "username": "sophia_lee",
@@ -45,7 +45,7 @@
       "timestamp": "2025-03-05T08:15:00Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "user": {
         "id": 103,
         "username": "mike_travel",
@@ -67,7 +67,7 @@
       "timestamp": "2025-04-18T10:00:00Z"
     },
     {
-      "id": 4,
+      "id": "4",
       "user": {
         "id": 104,
         "username": "emma_writer",
@@ -89,7 +89,7 @@
       "timestamp": "2025-05-22T17:45:00Z"
     },
     {
-      "id": 5,
+      "id": "5",
       "user": {
         "id": 105,
         "username": "travel_bug",
@@ -111,43 +111,45 @@
       "timestamp": "2025-06-10T13:00:00Z"
     }
   ],
-
-  "profile" :{
-        "id": 101,
-        "username": "Selvakumar_SK",
-        "profile_pic": "src/assets/Nature.jpeg"
-  },
-
-
-  "suggestions" :[ {
+  "profile": {
     "id": 101,
-        "username": "john_doe",
-        "profile_pic": "src/assets/Nature.jpeg"
+    "username": [
+      "SELVAKUMAR_SK"
+    ],
+    "profile_pic": [
+      "src/assets/Booksandcoffee.jpeg"
+    ]
   },
-  {
-    "id": 102,
-        "username": "sophia_lee",
-        "profile_pic": "src/assets/Morningvibes.jpg"
-  },
-  {
-    "id": 103,
-        "username": "mike_travel",
-        "profile_pic": "src/assets/Mountain.webp"
-  },
-  {
-     "id": 104,
-        "username": "emma_writer",
-        "profile_pic": "src/assets/Booksandcoffee.jpeg"
-  },
-  { "id": 105,
-        "username": "travel_bug",
-        "profile_pic": "src/assets/sunsandsea.webp"
-}
-],
-"story" :[
-   
- {
-      "id": 1,
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "john_doe",
+      "profile_pic": "src/assets/Nature.jpeg"
+    },
+    {
+      "id": "102",
+      "username": "sophia_lee",
+      "profile_pic": "src/assets/Morningvibes.jpg"
+    },
+    {
+      "id": "103",
+      "username": "mike_travel",
+      "profile_pic": "src/assets/Mountain.webp"
+    },
+    {
+      "id": "104",
+      "username": "emma_writer",
+      "profile_pic": "src/assets/Booksandcoffee.jpeg"
+    },
+    {
+      "id": "105",
+      "username": "travel_bug",
+      "profile_pic": "src/assets/sunsandsea.webp"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
       "user": {
         "id": 101,
         "username": "john_doe",
@@ -156,42 +158,50 @@
       "image": "https://i.pinimg.com/736x/67/da/af/67daaf11ac3d81854c8b1e820054e248.jpg"
     },
     {
-    "id": 2,
+      "id": "2",
       "user": {
         "id": 102,
         "username": "sophia_lee",
         "profile_pic": "src/assets/Morningvibes.jpg"
       },
       "image": "https://img.freepik.com/free-photo/vertical-shot-cute-labrador-dog-sitting-mountain-sunset_181624-43911.jpg"
-      },
-      {
-         "id": 3,
+    },
+    {
+      "id": "3",
       "user": {
         "id": 103,
         "username": "mike_travel",
         "profile_pic": "src/assets/Mountain.webp"
       },
       "image": "https://media.istockphoto.com/id/1813083710/photo/young-man-with-his-border-collie-dog.jpg?s=612x612&w=0&k=20&c=RpKaXkhAfZHMZQbSxkWOjRb6O9NEAsgzTNRG26QLnd0="
-      },
-      {
-      "id": 4,
+    },
+    {
+      "id": "4",
       "user": {
         "id": 104,
         "username": "emma_writer",
         "profile_pic": "src/assets/Booksandcoffee.jpeg"
       },
       "image": "https://st4.depositphotos.com/27201292/41849/i/450/depositphotos_418498294-stock-photo-vertical-shot-white-dog-forest.jpg"
-},
-      {
-        "id": 5,
+    },
+    {
+      "id": "5",
       "user": {
         "id": 105,
         "username": "travel_bug",
         "profile_pic": "src/assets/sunsandsea.webp"
       },
       "image": "https://media.istockphoto.com/id/1207014981/photo/autumn-forest-at-morning-with-rays-of-warm-sun-light.jpg?s=612x612&w=0&k=20&c=VUdYguNro9ozHkkoYUO0vgqw8XfuNDpcgPRYFhPDaeY="
-      }
-
- ]
-
+    }
+  ],
+  "followers": [
+    {
+      "id": "101",
+      "username": "john_doe"
+    },
+    {
+      "id": "104",
+      "username": "emma_writer"
+    }
+  ]
 }

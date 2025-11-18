@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import axios from 'axios';
 
 function Suggestions() {
 
@@ -18,6 +19,17 @@ useEffect(()=>{
   .catch((err => console.log(err)))
   
 },[])
+
+   const updateFollowers = async (id, username) => {
+  axios.post('http://localhost:3000/followers', {
+    id: id,
+    username: username
+  })
+  .then(() => {
+    alert("Followed");
+  })
+  .catch(err => console.log(err));
+};
 
 
   return (
@@ -45,7 +57,7 @@ useEffect(()=>{
                 <div className='d-flex mb-3'>
                     <img className='pp rounded-circle' src={e.profile_pic} alt='Profile Pic'/>
                     <h5>{e.username}</h5>
-                    <small className='text-primary ms-auto'>Follow</small>
+                    <button className='text-primary ms-auto btn' onClick={()=>{updateFollowers(e.id,e.username)}}>Follow</button>
                 </div>
               
 
