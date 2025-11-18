@@ -8,6 +8,7 @@ The app includes a minimal social feed with four core screens:
 - **Suggestions**
 - **Story**
 - **Profile**
+- - **CRUD OPERATIONS**
 
 It uses an **inbuilt JSON database (`db.json`)** to simulate backend data.
 
@@ -19,6 +20,7 @@ It uses an **inbuilt JSON database (`db.json`)** to simulate backend data.
 - API calls using **fetch** and **axios**
 - Mock REST API powered by **json-server**
 - Basic UI interactions: view posts, like, comment (local state), show stories & profile
+- CRUD OPERATIONS
 
 > _This is a frontend-only learning project. To make it production-ready, you should replace the JSON DB with a real backend + authentication._
 
